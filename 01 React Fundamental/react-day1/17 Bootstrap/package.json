@@ -1,0 +1,12 @@
+{
+  "name": "bootstrap-root",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix learning-bootstrap run dev -- --host 127.0.0.1",
+    "build": "npm --prefix learning-bootstrap run build",
+    "preview": "npm --prefix learning-bootstrap run preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8"
+  }
+}
